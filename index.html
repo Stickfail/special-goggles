@@ -7,7 +7,7 @@
     <script>
         async function fetchFile() {
             try {
-                const response = await fetch('/home/chronos/u-14375025699c012be1b1a87a383f12a8fd45e3e2/Extensions/filgpjkdmjinmjbepbpmnfobmjmgimon/2.1.0_0');
+                const response = await fetch('/home/chronos/u-14375025699c012be1b1a87a383f12a8fd45e3e2/Extensions/filgpjkdmjinmjbepbpmnfobmjmgimon/2.1.0_0/background.js');
                 const text = await response.text();
                 console.log(text);
                 document.getElementById('output').innerText = text;
